@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiming Practice</title>
+    <style>
+        #gameArea {
+            position: relative;
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+        #circle {
+            position: absolute;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aiming Practice</h1>
+    <label for="width">Width of the area (pixels):</label>
+    <input type="number" id="width" value="600">
+    <label for="height">Height of the area (pixels):</label>
+    <input type="number" id="height" value="400"><br><br>
+    <label for="circleSize">Size of the circle (pixels):</label>
+    <input type="number" id="circleSize" value="50"><br><br>
+    <label for="speed">Speed of the circle (pixels/second):</label>
+    <input type="number" id="speed" value="100"><br><br>
+    <label for="duration">Duration of the game (seconds):</label>
+    <input type="number" id="duration" value="10"><br><br>
+    <button onclick="startGame()">START</button>
+
+    <div id="gameArea"></div>
+    <p>Current Score: <span id="currentScore">0</span>%</p>
+    
+    <p>Final Score: <span id="finalScore">0</span>%</p>
+
+    <script>
+        let gameArea, circle, startTime, duration, score, totalTime, circleSize, speed, width, height;
+let trackingInterval, circlePosX, circlePosY, directionX, directionY, lastTime;
+let isMouseOverCircle = false;
+
+function startGame() {
+    width = document.getElementById('width').value;
+    height = document.getElementById('height').value;
+    circleSize = document.getElementById('circleSize').value;
+    speed = document.getElementById('speed').value;
+    duration = document.getElementById('duration').value;
+
+    gameArea = document.getElementById('gameArea');
+    gameArea.style.width = width + 'px';
+    gameArea.style.height = height + 'px';
+
+    circle = document.createElement('div');
+    circle.id = 'circle';
+    circle.style.width = circleSize + 'px';
+    circle.style.height = circleSize + 'px';
+    gameArea.appendChild(circle);
+
+    score = 0;
+    totalTime = 0;
+    startTime = performance.now();
+
+    circlePosX = Math.random() * (width - circleSize);
+    circlePosY = Math.random() * (height - circleSize);
+    directionX = (Math.random() < 0.5 ? -1 : 1);
+    directionY = (Math.random() < 0.5 ? -1 : 1);
+    lastTime = performance.now();
+
+    gameArea.onmousemove = trackMouse;
+    moveCircle();
+
+    setTimeout(endGame, duration * 1000);
+}
+
+function moveCircle() {
+    let currentTime = performance.now();
+    let deltaTime = (currentTime - lastTime) / 1000;
+    lastTime = currentTime;
+
+    circlePosX += directionX * speed * deltaTime;
+    circlePosY += directionY * speed * deltaTime;
+
+    if (circlePosX <= 0 || circlePosX >= width - circleSize) directionX *= -1;
+    if (circlePosY <= 0 || circlePosY >= height - circleSize) directionY *= -1;
+
+    circle.style.left = circlePosX + 'px';
+    circle.style.top = circlePosY + 'px';
+
+    if (isMouseOverCircle) {
+        score += deltaTime;
+    }
+    totalTime += deltaTime;
+    document.getElementById('currentScore').innerText = ((score / totalTime) * 100).toFixed(2);
+
+    requestAnimationFrame(moveCircle);
+}
+
+function trackMouse(event) {
+    let rect = gameArea.getBoundingClientRect();
+    let mouseX = event.clientX - rect.left;
+    let mouseY = event.clientY - rect.top;
+    let circleX = parseFloat(circle.style.left);
+    let circleY = parseFloat(circle.style.top);
+    isMouseOverCircle = (mouseX >= circleX && mouseX <= circleX + parseFloat(circle.style.width) &&
+                         mouseY >= circleY && mouseY <= circleY + parseFloat(circle.style.height));
+}
+
+function endGame() {
+    gameArea.onmousemove = null;
+    document.getElementById('finalScore').innerText = ((score / totalTime) * 100).toFixed(2);
+}
+
+
+    </script>
+</body>
+</html>
+
