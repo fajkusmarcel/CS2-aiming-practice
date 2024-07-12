@@ -51,9 +51,7 @@ Vyhodit duplicity
 
 * sv_grenade_trajectory 1: Zobrazuje trajektorii hozených granátů, což je užitečné pro trénink přesného házení granátů.
 * sv_grenade_trajectory_time 10: Nastavuje dobu (v sekundách), po kterou je zobrazena trajektorie granátu. Tento příkaz je užitečný pro analýzu a přizpůsobení hodu granátu.
-
-
-bind g "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy": Připojení příkazů pro získání všech typů granátů k klávese "G". Tímto způsobem můžeš rychle získat granáty pro trénink.
+*bind g "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy": Připojení příkazů pro získání všech typů granátů k klávese "G". Tímto způsobem můžeš rychle získat granáty pro trénink.
 * mp_teammates_are_enemies 1: Tento příkaz umožňuje, aby spoluhráči byli považováni za nepřátele, což je užitečné pro trénink střelby a reakčních časů ve smíšených týmech.
 * bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat, což je užitečné pro trénink střelby na stacionární cíle.
 * mp_respawn_on_death_t 1: Povolení respawnu CT hráčů po smrti, což umožňuje nepřetržitý trénink bez nutnosti čekání na nové kolo.
