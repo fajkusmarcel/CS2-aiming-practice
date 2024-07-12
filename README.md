@@ -1,10 +1,10 @@
-## Aiming practice Web app
+# CS2 training
+
+## Aiming Practice Web App
 Trénování sledování cípohybujícího cíle v herním poli pomocí myši nebo trénování rychlositi a přesnosti klikání (střílení) na cíl.
 
 
-# CS2 training
-
-## Training configurations
+## CS2 Training Configurations
 
 ### DEATHMATCH 1xT vs 8xCT
 ```
