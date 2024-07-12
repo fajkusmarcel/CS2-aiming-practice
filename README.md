@@ -30,16 +30,13 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 ## Nastavení botů
 * mp_limitteams 0**: Zrušení limitu na počet hráčů v týmech, což umožňuje nepoměrné rozdělení hráčů mezi týmy.
 * mp_autoteambalance 0**: Vypnutí automatického vyvažování týmů.
-**bot_kick**: Vyhození všech botů ze hry.
-
+* bot_kick**: Vyhození všech botů ze hry.
 * bot_add_t: Přidání bota do T týmu.
 
 * bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat, což je užitečné pro trénink střelby na stacionární cíle.
-
 * bot_add_ct: Přidání bota do CT týmu.
 * bot_difficulty 3**: Nastavení obtížnosti botů na 3 (nejvyšší obtížnost).
 * bot_dont_shoot 0**: Povolení botům střílet (nastavení na 0 znamená, že mohou střílet).
-
 * mp_teammates_are_enemies 1: Tento příkaz umožňuje, aby spoluhráči byli považováni za nepřátele, což je užitečné pro trénink střelby a reakčních časů ve smíšených týmech.
 
 ## Nastavení herního času a peněz 
@@ -50,29 +47,21 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 
 **mp_respawn_on_death_ct 1**: Povolení respawnu CT hráčů po smrti.
 * mp_respawn_on_death_t 1**: Povolení respawnu T hráčů po smrti.
-
 * mp_restartgame 1**: Restartování hry po 1 sekundě.
-
 * mp_maxmoney 65535**: Nastavení maximální možné částky peněz pro hráče na 65535.
 * mp_startmoney 65535**: Nastavení startovních peněz pro hráče na 65535.
 * mp_afterroundmoney 65535**: Nastavení peněz, které hráči obdrží po každém kole, na 65535
 
 ## Nastavení zbraní a munice
-
 * give weapon_ak47: Dát hráči zbraň AK-47.
 * give weapon_m4a1: Dát hráči zbraň M4A1.
 * give weapon_awp: Dát hráči zbraň AWP.
 * sv_infinite_ammo 1**: Povolení nekonečného množství munice.
-
-*bind g "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy": Připojení příkazů pro získání všech typů granátů k klávese "G". Tímto způsobem můžeš rychle získat granáty pro trénink.
-
+* bind g "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy": Připojení příkazů pro získání všech typů granátů k klávese "G". Tímto způsobem můžeš rychle získat granáty pro trénink.
 
 ## Vizualizace a trajektorie
-
-
 * sv_grenade_trajectory 1: Zobrazuje trajektorii hozených granátů, což je užitečné pro trénink přesného házení granátů.
 * sv_grenade_trajectory_time 10: Nastavuje dobu (v sekundách), po kterou je zobrazena trajektorie granátu. Tento příkaz je užitečný pro analýzu a přizpůsobení hodu granátu.
-
 
 ## Feautures
 * bind alt noclip: Připojení příkazu "noclip" k klávese "Alt". "Noclip" umožňuje hráči létat a procházet skrze objekty.bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat
@@ -80,20 +69,5 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * bind p "toggle sv_showimpacts 0 1": Připojení příkazu k klávese "P", který přepíná zobrazení impaktů střel (kde střely zasáhly) mezi zapnutým (1) a vypnutým (0) stavem.
 
 
-
-
-
-* mp_ignore_round_win_conditions 1**: Ignorování podmínek pro výhru kola, kolo pokračuje bez ohledu na normální pravidla.
-
-
-
-
-
-
-
-
-
-
-* mp_respawn_on_death_t 1: Povolení respawnu CT hráčů po smrti, což umožňuje nepřetržitý trénink bez nutnosti čekání na nové kolo.
 
 
