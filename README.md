@@ -46,9 +46,6 @@ Trénování sledování cípohybujícího cíle v herním poli pomocí myši ne
 * bot_dont_shoot 0**: Povolení botům střílet (nastavení na 0 znamená, že mohou střílet).
 * give weapon_awp**: Dát hráči zbraň AWP.
 * sv_infinite_ammo 1**: Povolení nekonečného množství munice.
-
-Vyhodit duplicity
-
 * sv_grenade_trajectory 1: Zobrazuje trajektorii hozených granátů, což je užitečné pro trénink přesného házení granátů.
 * sv_grenade_trajectory_time 10: Nastavuje dobu (v sekundách), po kterou je zobrazena trajektorie granátu. Tento příkaz je užitečný pro analýzu a přizpůsobení hodu granátu.
 *bind g "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy": Připojení příkazů pro získání všech typů granátů k klávese "G". Tímto způsobem můžeš rychle získat granáty pro trénink.
