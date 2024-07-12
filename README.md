@@ -32,6 +32,11 @@ Trénování sledování cípohybujícího cíle v herním poli pomocí myši ne
 * mp_afterroundmoney 65535**: Nastavení peněz, které hráči obdrží po každém kole, na 65535.
 **mp_roundtime_defuse 60**: Nastavení délky kola pro defuse mapy na 60 minut.
 * mp_roundtime 60**: Nastavení délky kola na 60 minut.
+* mp_roundtime_hostage 60: Nastavení délky kola pro hostage mapy (mapy, kde musí CT zachránit rukojmí) na 60 minut.
+* mp_freezetime 0: Nastavení času zmrazení (freezetime) na začátku kola na 0 sekund, což znamená, že kolo začne okamžitě bez čekací doby
+* bind alt noclip: Připojení příkazu "noclip" k klávese "Alt". "Noclip" umožňuje hráči létat a procházet skrze objekty.bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat.
+* bind o bot_place: Připojení příkazu "bot_place" k klávese "O". Tento příkaz umístí bota na pozici, kde se právě nachází hráč
+* bind p "toggle sv_showimpacts 0 1": Připojení příkazu k klávese "P", který přepíná zobrazení impaktů střel (kde střely zasáhly) mezi zapnutým (1) a vypnutým (0) stavem.
 * mp_restartgame 1**: Restartování hry po 1 sekundě.
 **mp_respawn_on_death_ct 1**: Povolení respawnu CT hráčů po smrti.
 * mp_respawn_on_death_t 1**: Povolení respawnu T hráčů po smrti.
