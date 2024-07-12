@@ -9,7 +9,7 @@ sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535;
 
 ### BOMB 1xT vs 8xCT
 ```
-sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1;  bot_add_ct;bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_difficulty 3; give weapon_awp; sv_infinite_ammo 1
+sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1;  bot_add_ct;bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_difficulty 3; give weapon_awp; sv_infinite_ammo 1 
 ```
 
 ### train
@@ -36,7 +36,7 @@ Trénování sledování cípohybujícího cíle v herním poli pomocí myši ne
 **mp_respawn_on_death_ct 1**: Povolení respawnu CT hráčů po smrti.
 * mp_respawn_on_death_t 1**: Povolení respawnu T hráčů po smrti.
 * mp_ignore_round_win_conditions 1**: Ignorování podmínek pro výhru kola, kolo pokračuje bez ohledu na normální pravidla.
-* bot_add_ct**: Přidání bota do CT týmu. Tento příkaz se opakuje osmkrát, což přidá celkem osm botů do CT týmu.
+* bot_add_ct**: Přidání bota do CT týmu.
 * bot_difficulty 3**: Nastavení obtížnosti botů na 3 (nejvyšší obtížnost).
 * bot_dont_shoot 0**: Povolení botům střílet (nastavení na 0 znamená, že mohou střílet).
 * give weapon_awp**: Dát hráči zbraň AWP.
