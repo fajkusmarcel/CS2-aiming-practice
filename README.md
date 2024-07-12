@@ -1,3 +1,7 @@
+## Aiming practice Web app
+Trénování sledování cípohybujícího cíle v herním poli pomocí myši nebo trénování rychlositi a přesnosti klikání (střílení) na cíl.
+
+
 # CS2 training
 
 ## Training configurations
@@ -18,10 +22,22 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 ```
 
 
-## Aiming practice Web app
-Trénování sledování cípohybujícího cíle v herním poli pomocí myši nebo trénování rychlositi a přesnosti klikání (střílení) na cíl.
+
 
 # CS2 příkazy
+
+## Nastavení botů
+
+## Nastavení herního času a peněz 
+
+## Nastavení zbraní a munice
+
+## Vizualizace a trajektorie
+
+## Feautures
+
+
+
 
 * sv_cheats 1**: Povolení cheatovacích příkazů na serveru.
 * mp_limitteams 0**: Zrušení limitu na počet hráčů v týmech, což umožňuje nepoměrné rozdělení hráčů mezi týmy.
