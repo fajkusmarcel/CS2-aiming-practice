@@ -1,5 +1,5 @@
 # CS2 training
-Nastroje a užitečné konfigurace pro CS2 pro zvýšení skillu ve hře Counter Strike 2.
+Nastroj, CS2 mapy a užitečné konfigurace pro zvýšení skillu ve hře Counter Strike 2.
  
 
 ## Aiming Practice Web App
