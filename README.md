@@ -9,8 +9,9 @@ Zdrojový kód webové javascriptové aplikace pro trénování sledování pohy
 ## CS2 Training Configurations
 Konfiguraci uložte do souboru se specifickým názvem a soubor uložte do adresáře TODO. Ve hře spusťte konzoli a zadejte příkaz 
 
-TODO
-
+```
+exec cfg_file_name
+```
 
 ### DEATHMATCH 1xT vs 8xCT
 ```
