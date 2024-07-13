@@ -14,11 +14,25 @@ exec cfg_file_name
 ```
 
 ### DEATHMATCH 1xT vs 8xCT
+
+Tato konfigurace je určena pro deathmatch trénink, kde se jeden hráč (T) postaví proti osmi botům (CT). Aktivuje cheaty, vypíná omezení počtu hráčů v týmech a automatické vyrovnávání týmů, a vyhazuje všechny existující boty. Poté nastaví maximální a startovní peníze na 65535, aby hráč měl dostatek prostředků. Délka kola je nastavena na 60 minut, což umožňuje delší trénink bez přerušení. Konfigurace zahrnuje okamžitý respawn po smrti pro oba týmy a ignorování podmínek pro výhru kola, což zajišťuje nepřetržitou hru. Přidává osm botů do CT týmu s maximální obtížností a povoluje jim střílet. Hráč dostává AWP a má nekonečné množství munice, což je ideální pro procvičování střelby s touto zbraní.
+
+
+
+
+
+Tato konfigurace je podobná předchozí, ale zaměřuje se na trénink v módu bomb, kde se jeden hráč (T) snaží umístit bombu proti osmi botům (CT). Cheaty jsou povoleny a omezení týmu a automatické vyrovnávání týmů jsou vypnuty. Všichni boti jsou vyhozeni, a poté jsou přidáni noví boti do CT týmu. Peníze jsou nastaveny na maximum pro start a po každém kole, což umožňuje hráči koupit jakoukoliv výbavu. Kolo trvá 60 minut, což poskytuje dostatek času na procvičování. Hráč dostává AWP a má nekonečnou munici. 
+
+### DEATHMATCH 1xT vs 8xCT
 ```
 sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1; mp_respawn_on_death_ct 1; mp_respawn_on_death_t 1; mp_ignore_round_win_conditions 1; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_difficulty 3; bot_dont_shoot 0; give weapon_awp; sv_infinite_ammo 1
 ```
 
 ### BOMB 1xT vs 8xCT
+
+Tato konfigurace je ideální pro nácvik umisťování bomby a střetů s vyšším počtem protivníků.trainTato konfigurace je určena pro obecný trénink ve hře. Cheaty jsou povoleny a maximální a startovní peníze jsou nastaveny na 16000, což umožňuje hráči koupit jakoukoliv výbavu bez omezení. Délka kola je nastavena na 60 minut pro všechny herní módy (defuse i hostage), a doba zmrznutí na začátku kola je zrušena, což zajišťuje okamžitý start. Noclip je bindován na klávesu alt, což umožňuje volný pohyb mapou. Boti jsou zastaveni a mohou být umístěni na konkrétní pozice pomocí klávesy o. Zobrazení zásahů je možné přepínat klávesou p. Tato konfigurace poskytuje flexibilní prostředí pro různé tréninkové scénáře, jako je nacvičování pohybu, umisťování botů na strategické pozice a sledování zásahů pro zlepšení přesnosti střelby.
+
+
 ```
 sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1;  bot_add_ct;bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_difficulty 3; give weapon_awp; sv_infinite_ammo 1 
 ```
