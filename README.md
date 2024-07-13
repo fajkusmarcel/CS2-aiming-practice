@@ -40,31 +40,31 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 ```
 
 ## CS2 příkazy
-* sv_cheats 1**: Povolení cheatovacích příkazů na serveru.
+* sv_cheats 1: Povolení cheatovacích příkazů na serveru.
 
 ## Nastavení botů
-* mp_limitteams 0**: Zrušení limitu na počet hráčů v týmech, což umožňuje nepoměrné rozdělení hráčů mezi týmy.
+* mp_limitteams 0: Zrušení limitu na počet hráčů v týmech, což umožňuje nepoměrné rozdělení hráčů mezi týmy.
 * mp_autoteambalance 0**: Vypnutí automatického vyvažování týmů.
-* bot_kick**: Vyhození všech botů ze hry.
+* bot_kick: Vyhození všech botů ze hry.
 * bot_add_t: Přidání bota do T týmu.
 * bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat, což je užitečné pro trénink střelby na stacionární cíle.
 * bot_add_ct: Přidání bota do CT týmu.
-* bot_difficulty 3**: Nastavení obtížnosti botů na 3 (nejvyšší obtížnost).
-* bot_dont_shoot 0**: Povolení botům střílet (nastavení na 0 znamená, že mohou střílet).
+* bot_difficulty 3: Nastavení obtížnosti botů na 3 (nejvyšší obtížnost).
+* bot_dont_shoot 0: Povolení botům střílet (nastavení na 0 znamená, že mohou střílet).
 * mp_teammates_are_enemies 1: Tento příkaz umožňuje, aby spoluhráči byli považováni za nepřátele, což je užitečné pro trénink střelby a reakčních časů ve smíšených týmech.
 
 ## Nastavení herního času a peněz 
-* mp_roundtime_defuse 60**: Nastavení délky kola pro defuse mapy na 60 minut.
-* mp_roundtime 60**: Nastavení délky kola na 60 minut.
+* mp_roundtime_defuse 60: Nastavení délky kola pro defuse mapy na 60 minut.
+* mp_roundtime 60: Nastavení délky kola na 60 minut.
 * mp_roundtime_hostage 60: Nastavení délky kola pro hostage mapy (mapy, kde musí CT zachránit rukojmí) na 60 minut.
 * mp_freezetime 0: Nastavení času zmrazení (freezetime) na začátku kola na 0 sekund, což znamená, že kolo začne okamžitě bez čekací doby
 
-**mp_respawn_on_death_ct 1**: Povolení respawnu CT hráčů po smrti.
-* mp_respawn_on_death_t 1**: Povolení respawnu T hráčů po smrti.
-* mp_restartgame 1**: Restartování hry po 1 sekundě.
-* mp_maxmoney 65535**: Nastavení maximální možné částky peněz pro hráče na 65535.
-* mp_startmoney 65535**: Nastavení startovních peněz pro hráče na 65535.
-* mp_afterroundmoney 65535**: Nastavení peněz, které hráči obdrží po každém kole, na 65535
+**mp_respawn_on_death_ct 1: Povolení respawnu CT hráčů po smrti.
+* mp_respawn_on_death_t 1: Povolení respawnu T hráčů po smrti.
+* mp_restartgame 1: Restartování hry po 1 sekundě.
+* mp_maxmoney 65535: Nastavení maximální možné částky peněz pro hráče na 65535.
+* mp_startmoney 65535: Nastavení startovních peněz pro hráče na 65535.
+* mp_afterroundmoney 65535: Nastavení peněz, které hráči obdrží po každém kole, na 65535
 
 ## Nastavení zbraní a munice
 * give weapon_ak47: Dát hráči zbraň AK-47.
