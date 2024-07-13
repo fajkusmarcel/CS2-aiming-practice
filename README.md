@@ -1,10 +1,16 @@
 # CS2 training
+Nastroje a užitečné konfigurace pro CS2 pro zvýšení skillu ve hre Counter Strike 2.
+ 
 
 ## Aiming Practice Web App
-Trénování sledování cípohybujícího cíle v herním poli pomocí myši nebo trénování rychlositi a přesnosti klikání (střílení) na cíl.
+Zdrojový kód webové javascriptové aplikace pro trénování sledování pohybujícího cíle v herním poli pomocí myši nebo trénování rychlositi a přesnosti klikání (střílení) na cíl.
 
 
 ## CS2 Training Configurations
+Konfiguraci uložte do souboru se specifickým názvem a soubor uložte do adresáře TODO. Ve hře spusťte konzoli a zadejte příkaz 
+
+TODO
+
 
 ### DEATHMATCH 1xT vs 8xCT
 ```
@@ -21,7 +27,7 @@ sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535;
 sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_defuse 60;mp_roundtime_hostage 60;mp_freezetime 0;bind alt noclip;bot_stop 1;bind o bot_place;bind p "toggle sv_showimpacts 0 1";mp_restartgame 1
 ```
 
-# CS2 příkazy
+## CS2 příkazy
 * sv_cheats 1**: Povolení cheatovacích příkazů na serveru.
 
 ## Nastavení botů
