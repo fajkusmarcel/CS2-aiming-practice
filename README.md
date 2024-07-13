@@ -5,6 +5,8 @@ Nastroje a užitečné konfigurace pro CS2 pro zvýšení skillu ve hře Counter
 ## Aiming Practice Web App
 Zdrojový kód webové javascriptové aplikace pro trénování sledování pohybujícího cíle v herním poli pomocí myši nebo trénování rychlosti a přesnosti klikání (střílení) na cíl.
 
+## CS2 training map
+
 
 ## CS2 Training Configurations
 Konfiguraci uložte do souboru se specifickým názvem a soubor uložte do adresáře TODO. Ve hře spusťte konzoli a zadejte příkaz 
