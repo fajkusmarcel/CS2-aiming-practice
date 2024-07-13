@@ -83,6 +83,7 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * bind o bot_place: Připojení příkazu "bot_place" k klávese "O". Tento příkaz umístí bota na pozici, kde se právě nachází hráč
 * bind p "toggle sv_showimpacts 0 1": Připojení příkazu k klávese "P", který přepíná zobrazení impaktů střel (kde střely zasáhly) mezi zapnutým (1) a vypnutým (0) stavem.
 
-
+## Link - web tutorials
+TODO taktiky, zbrane,... 
 
 
