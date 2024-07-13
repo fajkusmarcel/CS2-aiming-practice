@@ -5,8 +5,10 @@ Nastroj, CS2 mapy a užitečné konfigurace pro zvýšení skillu ve hře Counte
 ## Aiming Trenink Web App
 Zdrojový kód webové javascriptové aplikace pro trénování sledování pohybujícího cíle v herním poli pomocí myši nebo trénování rychlosti a přesnosti klikání (střílení) na cíl.
 
-## CS2 training map
+TODO screen aplikace
 
+## CS2 training map
+TODO mapy a jejich instalace
 
 ## CS2 Training Configurations
 Konfiguraci uložte do souboru se specifickým názvem a soubor uložte do adresáře TODO. Ve hře spusťte konzoli a zadejte příkaz 
