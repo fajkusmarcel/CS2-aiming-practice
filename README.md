@@ -67,7 +67,7 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * mp_startmoney 65535: Nastavení startovních peněz pro hráče na 65535.
 * mp_afterroundmoney 65535: Nastavení peněz, které hráči obdrží po každém kole, na 65535
 
-## Nastavení zbraní a munice
+### Nastavení zbraní a munice
 * give weapon_ak47: Dát hráči zbraň AK-47.
 * give weapon_m4a1: Dát hráči zbraň M4A1.
 * give weapon_awp: Dát hráči zbraň AWP.
