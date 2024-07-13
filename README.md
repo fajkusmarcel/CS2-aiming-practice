@@ -1,9 +1,9 @@
 # CS2 training
-Nastroje a užitečné konfigurace pro CS2 pro zvýšení skillu ve hre Counter Strike 2.
+Nastroje a užitečné konfigurace pro CS2 pro zvýšení skillu ve hře Counter Strike 2.
  
 
 ## Aiming Practice Web App
-Zdrojový kód webové javascriptové aplikace pro trénování sledování pohybujícího cíle v herním poli pomocí myši nebo trénování rychlositi a přesnosti klikání (střílení) na cíl.
+Zdrojový kód webové javascriptové aplikace pro trénování sledování pohybujícího cíle v herním poli pomocí myši nebo trénování rychlosti a přesnosti klikání (střílení) na cíl.
 
 
 ## CS2 Training Configurations
