@@ -44,7 +44,7 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 ## CS2 příkazy
 * sv_cheats 1: Povolení cheatovacích příkazů na serveru.
 
-## Nastavení botů
+### Nastavení botů
 * mp_limitteams 0: Zrušení limitu na počet hráčů v týmech, což umožňuje nepoměrné rozdělení hráčů mezi týmy.
 * mp_autoteambalance 0**: Vypnutí automatického vyvažování týmů.
 * bot_kick: Vyhození všech botů ze hry.
@@ -55,7 +55,7 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * bot_dont_shoot 0: Povolení botům střílet (nastavení na 0 znamená, že mohou střílet).
 * mp_teammates_are_enemies 1: Tento příkaz umožňuje, aby spoluhráči byli považováni za nepřátele, což je užitečné pro trénink střelby a reakčních časů ve smíšených týmech.
 
-## Nastavení herního času a peněz 
+### Nastavení herního času a peněz 
 * mp_roundtime_defuse 60: Nastavení délky kola pro defuse mapy na 60 minut.
 * mp_roundtime 60: Nastavení délky kola na 60 minut.
 * mp_roundtime_hostage 60: Nastavení délky kola pro hostage mapy (mapy, kde musí CT zachránit rukojmí) na 60 minut.
@@ -74,11 +74,11 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * sv_infinite_ammo 1**: Povolení nekonečného množství munice.
 * bind g "give weapon_hegrenade;give weapon_flashbang;give weapon_smokegrenade;give weapon_molotov;give weapon_decoy": Připojení příkazů pro získání všech typů granátů k klávese "G". Tímto způsobem můžeš rychle získat granáty pro trénink.
 
-## Vizualizace a trajektorie
+### Vizualizace a trajektorie
 * sv_grenade_trajectory 1: Zobrazuje trajektorii hozených granátů, což je užitečné pro trénink přesného házení granátů.
 * sv_grenade_trajectory_time 10: Nastavuje dobu (v sekundách), po kterou je zobrazena trajektorie granátu. Tento příkaz je užitečný pro analýzu a přizpůsobení hodu granátu.
 
-## Feautures
+### Feautures
 * bind alt noclip: Připojení příkazu "noclip" k klávese "Alt". "Noclip" umožňuje hráči létat a procházet skrze objekty.bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat
 * bind o bot_place: Připojení příkazu "bot_place" k klávese "O". Tento příkaz umístí bota na pozici, kde se právě nachází hráč
 * bind p "toggle sv_showimpacts 0 1": Připojení příkazu k klávese "P", který přepíná zobrazení impaktů střel (kde střely zasáhly) mezi zapnutým (1) a vypnutým (0) stavem.
