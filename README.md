@@ -15,7 +15,7 @@ exec cfg_file_name
 
 ### DEATHMATCH 1xT vs 8xCT
 
-Tato konfigurace je určena pro deathmatch trénink, kde se jeden hráč (T) postaví proti osmi botům (CT). Aktivuje cheaty, vypíná omezení počtu hráčů v týmech a automatické vyrovnávání týmů, a vyhazuje všechny existující boty. Poté nastaví maximální a startovní peníze na 65535, aby hráč měl dostatek prostředků. Délka kola je nastavena na 60 minut, což umožňuje delší trénink bez přerušení. Konfigurace zahrnuje okamžitý respawn po smrti pro oba týmy a ignorování podmínek pro výhru kola, což zajišťuje nepřetržitou hru. Přidává osm botů do CT týmu s maximální obtížností a povoluje jim střílet. Hráč dostává AWP a má nekonečné množství munice, což je ideální pro procvičování střelby s touto zbraní.
+Tato konfigurace je určena pro deathmatch trénink, kde se jeden hráč (T) postaví proti osmi botům s maximální obtiznosti, kteří mohou střílet (CT).  Nastaví startovní peníze na 65535, aby hráč měl dostatek prostředků. Délka kola je nastavena na 60 minut, což umožňuje delší trénink bez přerušení. Konfigurace zahrnuje okamžitý respawn po smrti všech botů i samotného hráče, což zajišťuje nepřetržitou hru. Hráč dostává AWP a má nekonečné množství munice, což je ideální pro procvičování střelby s touto zbraní.
 
 
 ```
@@ -24,14 +24,14 @@ sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535;
 
 ### BOMB 1xT vs 8xCT
 
-Tato konfigurace je ideální pro nácvik umisťování bomby a střetů s vyšším počtem protivníků.trainTato konfigurace je určena pro obecný trénink ve hře. Cheaty jsou povoleny a maximální a startovní peníze jsou nastaveny na 16000, což umožňuje hráči koupit jakoukoliv výbavu bez omezení. Délka kola je nastavena na 60 minut pro všechny herní módy (defuse i hostage), a doba zmrznutí na začátku kola je zrušena, což zajišťuje okamžitý start. Noclip je bindován na klávesu alt, což umožňuje volný pohyb mapou. Boti jsou zastaveni a mohou být umístěni na konkrétní pozice pomocí klávesy o. Zobrazení zásahů je možné přepínat klávesou p. Tato konfigurace poskytuje flexibilní prostředí pro různé tréninkové scénáře, jako je nacvičování pohybu, umisťování botů na strategické pozice a sledování zásahů pro zlepšení přesnosti střelby.
+Tato konfigurace je podobná předchozí, ale zaměřuje se na trénink v módu bomb, kde se jeden hráč (T) snaží umístit bombu proti osmi botům s nejvyšší obtížností (CT). Peníze jsou nastaveny na maximum pro start a po každém kole, což umožňuje hráči koupit jakoukoliv výbavu. Kolo trvá 60 minut, což poskytuje dostatek času na procvičování. Hráč dostává AWP a má nekonečnou munici. Tato konfigurace je ideální pro nácvik umisťování bomby a střetů s vyšším počtem protivníků.
 
 ```
 sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1;  bot_add_ct;bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_difficulty 3; give weapon_awp; sv_infinite_ammo 1 
 ```
 
 ### train
-Tato konfigurace je určena pro obecný trénink ve hře. Cheaty jsou povoleny a maximální a startovní peníze jsou nastaveny na 16000, což umožňuje hráči koupit jakoukoliv výbavu bez omezení. Délka kola je nastavena na 60 minut pro všechny herní módy (defuse i hostage), a doba zmrznutí na začátku kola je zrušena, což zajišťuje okamžitý start. Noclip je bindován na klávesu alt, což umožňuje volný pohyb mapou. Boti jsou zastaveni a mohou být umístěni na konkrétní pozice pomocí klávesy o. Zobrazení zásahů je možné přepínat klávesou p. Tato konfigurace poskytuje flexibilní prostředí pro různé tréninkové scénáře, jako je nacvičování pohybu, umisťování botů na strategické pozice a sledování zásahů pro zlepšení přesnosti střelby.
+Tato konfigurace je určena pro obecný trénink ve hře.  Startovní peníze jsou nastaveny na 16000, což umožňuje hráči koupit jakoukoliv výbavu bez omezení. Délka kola je nastavena na 60 minut a doba zmrznutí na začátku kola je zrušena, což zajišťuje okamžitý start. Noclip je bindován na klávesu alt, což umožňuje volný pohyb mapou. Boti jsou zastaveni a mohou být umístěni na konkrétní pozice pomocí klávesy o. Zobrazení zásahů je možné přepínat klávesou p. Tato konfigurace poskytuje flexibilní prostředí pro různé tréninkové scénáře, jako je nacvičování pohybu, umisťování botů na strategické pozice a sledování zásahů pro zlepšení přesnosti střelby.
 
 ```
 sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_defuse 60;mp_roundtime_hostage 60;mp_freezetime 0;bind alt noclip;bot_stop 1;bind o bot_place;bind p "toggle sv_showimpacts 0 1";mp_restartgame 1
