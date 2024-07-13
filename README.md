@@ -58,8 +58,7 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * mp_roundtime 60: Nastavení délky kola na 60 minut.
 * mp_roundtime_hostage 60: Nastavení délky kola pro hostage mapy (mapy, kde musí CT zachránit rukojmí) na 60 minut.
 * mp_freezetime 0: Nastavení času zmrazení (freezetime) na začátku kola na 0 sekund, což znamená, že kolo začne okamžitě bez čekací doby
-
-**mp_respawn_on_death_ct 1: Povolení respawnu CT hráčů po smrti.
+* mp_respawn_on_death_ct 1: Povolení respawnu CT hráčů po smrti.
 * mp_respawn_on_death_t 1: Povolení respawnu T hráčů po smrti.
 * mp_restartgame 1: Restartování hry po 1 sekundě.
 * mp_maxmoney 65535: Nastavení maximální možné částky peněz pro hráče na 65535.
