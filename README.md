@@ -21,9 +21,6 @@ sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535;
 sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_defuse 60;mp_roundtime_hostage 60;mp_freezetime 0;bind alt noclip;bot_stop 1;bind o bot_place;bind p "toggle sv_showimpacts 0 1";mp_restartgame 1
 ```
 
-
-
-
 # CS2 příkazy
 * sv_cheats 1**: Povolení cheatovacích příkazů na serveru.
 
@@ -32,7 +29,6 @@ sv_cheats 1;mp_maxmoney 16000;mp_startmoney 16000;mp_roundtime 60;mp_roundtime_d
 * mp_autoteambalance 0**: Vypnutí automatického vyvažování týmů.
 * bot_kick**: Vyhození všech botů ze hry.
 * bot_add_t: Přidání bota do T týmu.
-
 * bot_stop 1: Zastavení všech botů na místě. Boti se přestanou pohybovat, což je užitečné pro trénink střelby na stacionární cíle.
 * bot_add_ct: Přidání bota do CT týmu.
 * bot_difficulty 3**: Nastavení obtížnosti botů na 3 (nejvyšší obtížnost).
