@@ -33,6 +33,13 @@ Tato konfigurace je podobná předchozí, ale zaměřuje se na trénink v módu 
 ```
 sv_cheats 1; mp_limitteams 0; mp_autoteambalance 0; bot_kick; mp_maxmoney 65535; mp_startmoney 65535; mp_afterroundmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1;  bot_add_ct;bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_difficulty 3; give weapon_awp; sv_infinite_ammo 1 
 ```
+### Trenováni házení granátů
+```
+sv_cheats 1
+sv_grenade_trajectory 1
+sv_grenade_trajectory_time 10
+sv_cheats 1; bot_kick; mp_startmoney 65535; mp_roundtime_defuse 60; mp_roundtime 60; mp_restartgame 1; give weapon_awp; 		 sv_grenade_trajectory_time 10
+```
 
 ### Universal training
 Tato konfigurace je určena pro obecný trénink ve hře.  Startovní peníze jsou nastaveny na 16000, což umožňuje hráči koupit jakoukoliv výbavu bez omezení. Délka kola je nastavena na 60 minut a doba zmrznutí na začátku kola je zrušena, což zajišťuje okamžitý start. Noclip je bindován na klávesu alt, což umožňuje volný pohyb mapou. Boti jsou zastaveni a mohou být umístěni na konkrétní pozice pomocí klávesy o. Zobrazení zásahů je možné přepínat klávesou p. Tato konfigurace poskytuje flexibilní prostředí pro různé tréninkové scénáře, jako je nacvičování pohybu, umisťování botů na strategické pozice a sledování zásahů pro zlepšení přesnosti střelby.
